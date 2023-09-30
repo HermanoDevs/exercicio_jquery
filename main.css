@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+body {
+    background-color: #e7e7e7;
+    padding-top: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header {
+    height: 40px;
+    margin-right: 16px;
+    margin-left: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    max-width: 450px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input {
+    font-size: 25px;
+    background-color: white;
+    border: none;
+    border-bottom: 2px solid black;
+    padding: 5px;
+}
+
+form button {
+    background-color: rgb(0, 174, 255);
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+}
+
+table { 
+    width: 100%;
+}
+
+form {
+    margin-left: 85px;
+}
+
+h1 {
+    margin-left: 80px;
+}
+
+img {
+    height: 40px;
+    margin-left: 50px;
+}
+
+ul li {
+    margin-left: 200px;
+    font-size: 25px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.riscado {
+    text-decoration: line-through;
+}
